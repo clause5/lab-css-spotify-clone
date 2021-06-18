@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height:80px;
+    background-color: #FFF;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav img{
+    height: 60px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-right: 1rem;
+}
+
+li{
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: 100;
+    cursor: pointer; 
+}
+
+#banner{
+    color: #FFF;
+    margin:0;
+    width: 100%;
+    height: 960px;
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+} 
+
+#banner h1 {
+    font-weight: 600;
+    font-size: 5rem;  
+    margin-top: 0;
+    margin-bottom: 0.5rem; 
+}
+
+#banner p{
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+#features{
+    text-align: center;
+    color: #1A1A1A;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+h3{
+    color: #0db46f;
+    font-size: bolder;
+}
+
+#green-line{
+    border: 2px solid #0db46f;
+    background-color: #0db46f;
+    width: 195px;
+}
+
+#icons-container{
+    padding: 6rem;
+    display:flex;
+    justify-content: center;
+}
+
+.icon-container{
+    width: 500px;
+    height: 300px;
+}
+
+#icons-container img{
+    width: 100px;
+    height: 100px;
+}
+
+.icon-container p{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 100;
+    width: 250px;
+    margin: 0 auto;
+}
+
+#functions{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #0db46f;
+    color: #FFF;
+    background-image: url('../images/spotify-icon-white.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12%;
+}
+
+#white-line{
+    margin:  0;
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    width: 300px;
+}
+
+#img-app{
+    height: 600px;
+    margin: 0 auto;
+}
+
+#left-functions{
+    padding:  3rem 8rem;
+}
+
+#left-functions p{
+    width: 380px;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+#right-functions{
+    padding: 3rem 8rem 3rem 0;
+}
